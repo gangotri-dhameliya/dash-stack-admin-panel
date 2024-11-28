@@ -1,0 +1,27 @@
+.textDark {
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.cardsRow {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+.dashBoard {
+  /* height: calc(100vh-5.7rem); */
+  background-color: rgb(238, 238, 238);
+  margin-top: 5.7rem;
+}
+
+.cards {
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
