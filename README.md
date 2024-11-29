@@ -39,7 +39,7 @@ https://github.com/user-attachments/assets/bc6a6a9f-10ae-4fcb-88c6-7026a7898e0b
 3. **Tailwind CSS**: Utility-first CSS framework for fast styling.
 4. **Daisy UI**: Tailwind-based component library for responsive design.
 
-# Dashboard Overview
+## Dashboard Overview
 
 The dashboard provides a comprehensive view of key metrics, including charts and detailed tables.
 
@@ -69,7 +69,7 @@ The dashboard provides a comprehensive view of key metrics, including charts and
     </div>
 ```
 
-# Inbox Module 
+## Inbox Module 
 
 An email-inspired inbox design for handling messages efficiently.
 
@@ -130,7 +130,7 @@ An email-inspired inbox design for handling messages efficiently.
         </div>
 ```
 
-# Todo List 
+## Todo List 
 
 Add, delete, or bookmark tasks with an interactive and intuitive UI.
 
@@ -210,7 +210,7 @@ Add, delete, or bookmark tasks with an interactive and intuitive UI.
       </div>
 ```
 
-# Product Stock 
+## Product Stock 
 
 A detailed table displaying product inventory, complete with like/dislike functionality.
 
@@ -233,7 +233,8 @@ A detailed table displaying product inventory, complete with like/dislike functi
       </div>
     </div>
 ```
-# Order List 
+
+## Order List 
 
 Paginated order list for managing customer purchases.
 
@@ -256,7 +257,7 @@ Paginated order list for managing customer purchases.
       </div>
     </div>
 ```
-# Team Management
+## Team Management
 
 Manage your team members with a responsive UI.
 
@@ -311,7 +312,7 @@ Manage your team members with a responsive UI.
 └── README.md              # Documentation
 ```
 
-# 🔧 How to Use
+## 🔧 How to Use
 
 ### Install dependencies
 
@@ -325,7 +326,7 @@ npm install
 npm run dev
 ```
 
-# 🌟 Why Use Dash Stack Admin Panel?
+## 🌟 Why Use Dash Stack Admin Panel?
 
 - Ease of Use: Built for simplicity and flexibility.
 - Modern UI/UX: Provides a clean, professional interface.
