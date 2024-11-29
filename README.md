@@ -4,6 +4,9 @@ This admin panel contains a sleek, responsive, and feature-rich admin panel buil
 The panel is designed for efficient management and data visualization, catering to modern administrative needs.
 
 
+https://github.com/user-attachments/assets/bc6a6a9f-10ae-4fcb-88c6-7026a7898e0b
+
+
 ## Features
 
 ### Responsive Design
@@ -59,7 +62,9 @@ The dashboard page introduces the products, tables and charts.
 ```
 
 # Inbox Overview
+
 In inbox page uses email inbox responsive designs
+
 ![inbox](https://github.com/user-attachments/assets/1ee6d0f5-3935-4de3-ba7d-12253f568bd2)
 
 ```html
@@ -220,8 +225,58 @@ The product page has displays the list products with like/dislike functionality.
       </div>
     </div>
 ```
+# Order List Overview
 
+The order list page has displays the ordered products with pagination functionality.
 
+![orderlist](https://github.com/user-attachments/assets/93783fc9-af9e-44ed-afb3-4652efd69d93)
+
+```html
+ <div
+      className={`flex-auto m-5 ${styles.order}`}
+      style={{
+        marginLeft: windowWidth < 1270 ? "90px" : "260px",
+
+        overflowY: "hidden",
+        width: "min-content",
+        height: "min-content",
+      }}
+    >
+      <span className={styles.textOrderDark}>Order Lists</span>
+      <div style={{ height: "100vh" }}>
+        <OrderListTable />
+      </div>
+    </div>
+```
+# Team Overview
+
+The team list page has displays responsive UI.
+
+![team](https://github.com/user-attachments/assets/0daae393-8a25-49bc-81cd-84bb28dff67e)
+
+```html
+<div className={`flex-auto m-5 ${styles.team}`}
+      style={{
+        marginLeft: windowWidth < 1270 ? "90px" : "260px",
+        overflowY: "hidden",
+        width: "min-content",
+        height: "min-content",
+      }}>
+      <div className=" flex flex-row justify-between">
+        <div className={styles.textTeamDark}>Team</div>
+        <button
+          className="btn btn-active text-white px-5"
+          style={{
+            background: "rgba(15, 15, 226, 0.7)",
+          }}>
+          Add New Member
+        </button>
+      </div>
+      <div style={{ height: "auto" }}>
+        <TeamListView />
+      </div>
+    </div>
+```
 
 ## Folder Structure
 
